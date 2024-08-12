@@ -1,0 +1,19 @@
+{
+  "name": "diploma-qamid65-pospelova",
+  "version": "1.0.0",
+  "description": "В этой ветке лежат черновики",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "allure-mocha": "^3.0.0-beta.8",
+    "appium": "^2.11.2",
+    "chai": "^5.1.1",
+    "mocha": "^10.7.0",
+    "wd": "^1.14.0"
+  }
+}
