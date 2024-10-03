@@ -1,0 +1,49 @@
+
+Properties
+avd.ini.displayname              Pixel 5 API 29
+avd.ini.encoding                 UTF-8
+AvdId                            Pixel_5_API_29
+disk.dataPartition.size          6G
+fastboot.chosenSnapshotFile      
+fastboot.forceChosenSnapshotBoot no
+fastboot.forceColdBoot           no
+fastboot.forceFastBoot           yes
+hw.accelerometer                 yes
+hw.arc                           false
+hw.audioInput                    yes
+hw.battery                       yes
+hw.camera.back                   virtualscene
+hw.camera.front                  emulated
+hw.cpu.ncore                     2
+hw.device.hash2                  MD5:3274126e0242a0d86339850416b0ce34
+hw.device.manufacturer           Google
+hw.device.name                   pixel_5
+hw.dPad                          no
+hw.gps                           yes
+hw.gpu.enabled                   yes
+hw.gpu.mode                      host
+hw.initialOrientation            portrait
+hw.keyboard                      yes
+hw.lcd.density                   440
+hw.lcd.height                    2340
+hw.lcd.width                     1080
+hw.mainKeys                      no
+hw.ramSize                       2048
+hw.sdCard                        yes
+hw.sensors.orientation           yes
+hw.sensors.proximity             yes
+hw.trackBall                     no
+image.androidVersion.api         29
+image.sysdir.1                   system-images\android-29\google_apis\x86\
+PlayStore.enabled                false
+runtime.network.latency          none
+runtime.network.speed            full
+showDeviceFrame                  yes
+skin.dynamic                     yes
+tag.display                      Google APIs
+tag.displaynames                 Google APIs
+tag.id                           google_apis
+tag.ids                          google_apis
+vm.heapSize                      256
+
+
