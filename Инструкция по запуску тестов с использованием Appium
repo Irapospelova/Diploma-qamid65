@@ -1,0 +1,39 @@
+ Инструкция по запуску тестов с использованием Appium 
+Установить Appium:
+npm install -g appium
+Проверить доступный эмулятор:
+adb devices
+При необходимости запустить его принудительно, название поменять на свое:
+emulator -avd emulator-5554 
+В коде теста должен быть добавлен соответствующий порт или ip для запуска:  driver = new AndroidDriver(new URL("http://127.0.0.1:4723"), caps)
+В командной строке запустить Appium сервер: 
+appium -a 127.0.0.1 -p 4723
+Проверить статус с помощью команды: 
+curl http://127.0.0.1:4723/status  
+Ответ должен быть таким: 
+
+
+StatusCode        : 200
+StatusDescription : OK
+Content           : {"value":{"ready":true,"message":"The server is ready to accept new connections","build":{"version":"2.11.3"}}}
+RawContent        : HTTP/1.1 200 OK
+                    Connection: keep-alive
+                    Keep-Alive: timeout=600
+                    Content-Length: 111
+                    Content-Type: application/json; charset=utf-8
+                    Date: Thu, 03 Oct 2024 14:45:40 GMT
+                    ETag: W/"6f-c7Sl/+3tvkOdovyNJ...
+Forms             : {}
+Headers           : {[Connection, keep-alive], [Keep-Alive, timeout=600], [Content-Length, 111], [Content-Type, application/json; charset=utf-8]...}
+Images            : {}
+InputFields       : {}
+Links             : {}
+ParsedHtml        : mshtml.HTMLDocumentClass
+RawContentLength  : 111
+
+Запустить тест.
+
+
+
+
+
